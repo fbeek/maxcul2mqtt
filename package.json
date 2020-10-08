@@ -1,0 +1,44 @@
+{
+  "name": "maxcul2mqtt",
+  "version": "1.0.0",
+  "description": "Standalone Solution to use a !Max-Cul only with mqtt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-debug": "node --inspect-brk=0.0.0.0:9191 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbeek/maxcul2mqtt.git"
+  },
+  "keywords": [
+    "maxcul",
+    "mqtt",
+    "heating"
+  ],
+  "author": "Florian in der Beek <kontakt@tecbits.de>",
+  "homepage": "https://github.com/fbeek/maxcul2mqtt#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fbeek/maxcul2mqtt/issues"
+  },
+  "dependencies": {
+    "ajv": "^6.12.5",
+    "binary-parser": "^1.6.2",
+    "bitset": "^5.1.1",
+    "bluebird": "^3.7.2",
+    "git-last-commit": "^1.0.0",
+    "js-yaml": "^3.14.0",
+    "mkdir-recursive": "^0.4.0",
+    "moment": "^2.29.0",
+    "mqtt": "^4.2.1",
+    "node-yaml-config": "0.0.6",
+    "object-assign-deep": "^0.4.0",
+    "rimraf": "^3.0.2",
+    "serialport": "^9.0.1",
+    "simple-json-db": "^1.2.2",
+    "sprint-js": "^0.1.0",
+    "winston": "^3.3.3"
+  }
+}
