@@ -1,4 +1,4 @@
-image: docker:stable
+image: jdrouet/docker-with-buildx:stable
 
 variables:
   DOCKER_HOST: tcp://docker:2375/
@@ -10,4 +10,5 @@ services:
 build:
   stage: build
   script:
-    - docker version
+    - docker buildx create --use
+    - docker buildx build --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --tag fbeek/maxcul2mqtt:latest .
