@@ -1,0 +1,48 @@
+default:
+  logger:
+    log_rotation: true
+    log_output: "console" ## console or file
+    log_directory: ""
+    log_file: "log.txt"
+    log_level: "debug"
+  mqtt:
+    base_topic: "maxcul2mqtt"
+    server: "mqtt://mqtt.example.com"
+    keepalive: 120
+    #ca: "",
+    #key: "",
+    #cert: "",
+    user: "USER"
+    password: "PASS"
+    client_id: "maxcul2mqtt"
+  maxcul:
+    homeBaseAdress: "xxxxxx"
+    baudrate: 9600
+    port: "/dev/ttyACM0"
+    pairModeEnabled: true
+  advanced:
+    cache_state_persistent: true
+  database:
+    db_path: "."
+    db_file: "database.db"
+  devices:
+    0209d8:
+      label: "Schlafzimmer Fenster Links"
+      deviceId: "0209d8"
+      deviceType: "ShutterContact"
+      groupId: "00"
+      pairIds: []
+    0d0cd7:
+      label: "Heizung Arbeitszimmer"
+      deviceId: "0d0cd7"
+      deviceType: "Thermostat"
+      groupId: '00'
+      ecoTemp: 17
+      comfyTemp: 20
+      minimumTemperature: 4.5
+      maximumTemperature: 30.5
+      measurementOffset: 0
+      windowOpenTime: 60
+      windowOpenTemperature: 4.5
+      guiShowValvePosition: true
+      pairIds: []
