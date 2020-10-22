@@ -9,8 +9,10 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN ln -fs /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
 ####### install #######
-RUN mkdir /app
-RUN cd /app && npm install https://gitlab.com/fbeek/maxcul2mqtt.git
+RUN mkdir /app && cd /app
+ADD . /app
+
+RUN npm install
 
 COPY storage/configuration_sample.yaml /app/storage/configuration.yaml
 
