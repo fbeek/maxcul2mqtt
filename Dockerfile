@@ -15,6 +15,6 @@ ADD . /app
 RUN cd /app && npm install
 
 COPY storage/configuration_sample.yaml /app/storage/configuration.yaml
-
+WORKDIR /app
 ####### command #######
-CMD /usr/local/bin/node /app/index.js
+CMD /usr/local/bin/node index.js
