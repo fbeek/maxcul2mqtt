@@ -12,7 +12,7 @@ RUN ln -fs /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 RUN mkdir /app
 RUN cd /app && npm install https://gitlab.com/fbeek/maxcul2mqtt.git
 
-COPY configuration_sample.yaml /app/configuration.yaml
+COPY storage/configuration_sample.yaml /app/storage/configuration.yaml
 
 ####### command #######
 CMD /usr/local/bin/node /app/index.js
