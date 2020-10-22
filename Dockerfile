@@ -9,10 +9,10 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN ln -fs /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
 ####### install #######
-RUN mkdir /app && cd /app
+RUN mkdir /app
 ADD . /app
 
-RUN npm install
+RUN cd /app && npm install
 
 COPY storage/configuration_sample.yaml /app/storage/configuration.yaml
 
