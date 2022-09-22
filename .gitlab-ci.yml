@@ -1,4 +1,5 @@
-stages: build
+stages:
+  - build
 
 docker_build:
   stage: build
