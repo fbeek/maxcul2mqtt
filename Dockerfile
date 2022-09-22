@@ -1,5 +1,5 @@
 # base image
-FROM node:12.18.0-stretch
+FROM node:lts-gallium
 
 LABEL Description="nodejs container with the maxcul2zigbee bridge" Maintainer="kontakt@idbtec.de" Version="1.0"
 
