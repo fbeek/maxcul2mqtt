@@ -11,4 +11,4 @@ docker_build:
     - docker context create tls-environment
     - docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
     - docker buildx create --use tls-environment
-    - docker buildx build --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --use tls-environment --push --tag $CI_REGISTRY/fbeek/maxcul2mqtt:latest .
+    - docker buildx build --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push --tag $CI_REGISTRY/fbeek/maxcul2mqtt:latest .
