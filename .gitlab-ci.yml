@@ -1,16 +1,12 @@
-image: jdrouet/docker-with-buildx:stable
+stages: build
 
-variables:
-  DOCKER_HOST: tcp://docker:2375/
-  DOCKER_DRIVER: overlay2
-
-services:
-  - docker:dind
-
-build:
+docker_build:
   stage: build
+  image: docker:20.10.16
+  services:
+    - docker:20.10.16-dind
   script:
-    - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     - docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
     - docker buildx create --use
     - docker buildx build --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push --tag fbeek/maxcul2mqtt:latest .
