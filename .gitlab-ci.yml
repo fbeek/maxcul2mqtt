@@ -8,6 +8,7 @@ docker_build:
     - docker:20.10.16-dind
   script:
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker context create tls-environment
     - docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
-    - docker buildx create --use
-    - docker buildx build --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push --tag fbeek/maxcul2mqtt:latest .
+    - docker buildx create --use tls-environment
+    - docker buildx build --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --use tls-environment --push --tag $CI_REGISTRY/fbeek/maxcul2mqtt:latest .
