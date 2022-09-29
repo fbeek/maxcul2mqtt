@@ -1,0 +1,199 @@
+{
+    "165389": {
+        "deviceType": "ShutterContact",
+        "state": {
+            "isOpen": 0,
+            "rfError": 0,
+            "batteryLow": 0,
+            "lastUpdate": "Thu Sep 29 2022 17:42:03 GMT+0200 (Central European Summer Time)"
+        }
+    },
+    "0209f8": {
+        "deviceType": "ShutterContact",
+        "state": {
+            "isOpen": 0,
+            "rfError": 0,
+            "batteryLow": 0,
+            "lastUpdate": "Sun Oct 25 2020 18:56:03 GMT+0100 (Central European Standard Time)"
+        }
+    },
+    "0d0cf7": {
+        "deviceType": "Thermostat",
+        "state": {
+            "mode": "1",
+            "desiredTemperature": 20,
+            "valvePosition": 9,
+            "measuredTemperature": 21.4,
+            "dstSetting": 1,
+            "langateway": 1,
+            "panel": 0,
+            "rferror": 0,
+            "batterylow": 0,
+            "untilString": "",
+            "lastUpdate": "Thu Sep 29 2022 18:59:19 GMT+0200 (Central European Summer Time)",
+            "haMode": "heat",
+            "lastSetpoint": 20
+        }
+    },
+    "0ec316": {
+        "deviceType": "ShutterContact",
+        "state": {
+            "isOpen": 1,
+            "rfError": 0,
+            "batteryLow": 0,
+            "lastUpdate": "Sun Oct 25 2020 18:47:49 GMT+0100 (Central European Standard Time)"
+        }
+    },
+    "1c0ac2": {
+        "deviceType": "WallMountedThermostat",
+        "state": {
+            "lastSetpoint": 4.5,
+            "desiredTemperature": 4.5,
+            "lastUpdate": "Thu Sep 29 2022 18:54:56 GMT+0200 (Central European Summer Time)",
+            "haMode": "off",
+            "mode": 1,
+            "measuredTemperature": 22.3,
+            "dstSetting": 1,
+            "langateway": 1,
+            "panel": 0,
+            "rferror": 0,
+            "batterylow": 0
+        }
+    },
+    "0ec1c5": {
+        "deviceType": "ShutterContact",
+        "state": {
+            "isOpen": 0,
+            "rfError": 0,
+            "batteryLow": 0,
+            "lastUpdate": "Thu Sep 29 2022 18:54:40 GMT+0200 (Central European Summer Time)"
+        }
+    },
+    "1952e0": {
+        "deviceType": "Thermostat",
+        "state": {
+            "mode": "1",
+            "desiredTemperature": 20,
+            "valvePosition": 0,
+            "measuredTemperature": 22.3,
+            "dstSetting": 1,
+            "langateway": 1,
+            "panel": 0,
+            "rferror": 0,
+            "batterylow": 0,
+            "untilString": "",
+            "lastUpdate": "Thu Sep 29 2022 18:48:48 GMT+0200 (Central European Summer Time)",
+            "haMode": "heat",
+            "lastSetpoint": 20
+        }
+    },
+    "10dd0d": {
+        "deviceType": "Thermostat",
+        "state": {
+            "mode": "1",
+            "desiredTemperature": 20,
+            "valvePosition": 49,
+            "measuredTemperature": 19.3,
+            "dstSetting": 1,
+            "langateway": 1,
+            "panel": 0,
+            "rferror": 0,
+            "batterylow": 0,
+            "untilString": "",
+            "lastUpdate": "Thu Sep 29 2022 17:02:24 GMT+0200 (Central European Summer Time)",
+            "haMode": "heat",
+            "lastSetpoint": 20
+        }
+    },
+    "0d1031": {
+        "deviceType": "Thermostat",
+        "state": {
+            "lastSetpoint": 17.5,
+            "desiredTemperature": 4.5,
+            "mode": "1",
+            "lastUpdate": "Thu Sep 29 2022 18:50:37 GMT+0200 (Central European Summer Time)",
+            "haMode": "off",
+            "valvePosition": 0,
+            "measuredTemperature": 19.3,
+            "dstSetting": 1,
+            "langateway": 1,
+            "panel": 0,
+            "rferror": 0,
+            "batterylow": 0,
+            "untilString": ""
+        }
+    },
+    "0eb961": {
+        "deviceType": "Thermostat",
+        "state": {
+            "lastSetpoint": 20,
+            "desiredTemperature": 20,
+            "mode": "1",
+            "lastUpdate": "Thu Sep 29 2022 17:33:51 GMT+0200 (Central European Summer Time)",
+            "haMode": "heat",
+            "valvePosition": 58,
+            "measuredTemperature": 18.5,
+            "dstSetting": 1,
+            "langateway": 1,
+            "panel": 0,
+            "rferror": 0,
+            "batterylow": 0,
+            "untilString": ""
+        }
+    },
+    "05ea71": {
+        "deviceType": "ShutterContact",
+        "state": {
+            "isOpen": 0,
+            "rfError": 0,
+            "batteryLow": 0,
+            "lastUpdate": "Thu Sep 29 2022 18:56:12 GMT+0200 (Central European Summer Time)"
+        }
+    },
+    "1a47c9": {
+        "deviceType": "ShutterContact",
+        "state": {
+            "isOpen": 0,
+            "rfError": 0,
+            "batteryLow": 0,
+            "lastUpdate": "Thu Sep 29 2022 18:20:26 GMT+0200 (Central European Summer Time)"
+        }
+    },
+    "020bfb": {
+        "deviceType": "ShutterContact",
+        "state": {
+            "isOpen": 0,
+            "rfError": 0,
+            "batteryLow": 1,
+            "lastUpdate": "Thu Sep 29 2022 18:41:02 GMT+0200 (Central European Summer Time)"
+        }
+    },
+    "1a4c07": {
+        "deviceType": "ShutterContact",
+        "state": {
+            "isOpen": 0,
+            "rfError": 0,
+            "batteryLow": 0,
+            "lastUpdate": "Thu Sep 29 2022 18:51:37 GMT+0200 (Central European Summer Time)"
+        }
+    },
+    "18718a": {
+        "deviceType": "Thermostat",
+        "state": {
+            "lastSetpoint": 18,
+            "desiredTemperature": 4.5,
+            "mode": "1",
+            "lastUpdate": "Thu Sep 29 2022 18:56:39 GMT+0200 (Central European Summer Time)",
+            "haMode": "off",
+            "valvePosition": 0,
+            "measuredTemperature": 18.8,
+            "dstSetting": 1,
+            "langateway": 1,
+            "panel": 0,
+            "rferror": 0,
+            "batterylow": 1,
+            "untilString": "",
+            "temp": 6
+        }
+    }
+}
