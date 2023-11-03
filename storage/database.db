@@ -5,7 +5,7 @@
             "isOpen": 0,
             "rfError": 0,
             "batteryLow": 0,
-            "lastUpdate": "Thu Sep 29 2022 17:42:03 GMT+0200 (Central European Summer Time)"
+            "lastUpdate": "Fri Dec 09 2022 17:52:25 GMT+0100 (Central European Standard Time)"
         }
     },
     "0209f8": {
@@ -21,27 +21,27 @@
         "deviceType": "Thermostat",
         "state": {
             "mode": "1",
-            "desiredTemperature": 18.5,
-            "valvePosition": 18,
-            "measuredTemperature": 19.3,
+            "desiredTemperature": 21,
+            "valvePosition": 10,
+            "measuredTemperature": 21,
             "dstSetting": 1,
             "langateway": 1,
             "panel": 0,
             "rferror": 0,
             "batterylow": 0,
             "untilString": "",
-            "lastUpdate": "Fri Dec 09 2022 12:26:12 GMT+0100 (Central European Standard Time)",
+            "lastUpdate": "Fri Dec 09 2022 17:42:45 GMT+0100 (Central European Standard Time)",
             "haMode": "heat",
-            "lastSetpoint": 20
+            "lastSetpoint": 21
         }
     },
     "0ec316": {
         "deviceType": "ShutterContact",
         "state": {
-            "isOpen": 1,
+            "isOpen": 0,
             "rfError": 0,
             "batteryLow": 0,
-            "lastUpdate": "Sun Oct 25 2020 18:47:49 GMT+0100 (Central European Standard Time)"
+            "lastUpdate": "Fri Dec 09 2022 16:57:24 GMT+0100 (Central European Standard Time)"
         }
     },
     "1c0ac2": {
@@ -67,55 +67,55 @@
             "isOpen": 0,
             "rfError": 0,
             "batteryLow": 0,
-            "lastUpdate": "Fri Dec 09 2022 12:12:32 GMT+0100 (Central European Standard Time)"
+            "lastUpdate": "Fri Dec 09 2022 17:11:01 GMT+0100 (Central European Standard Time)"
         }
     },
     "1952e0": {
         "deviceType": "Thermostat",
         "state": {
             "mode": "1",
-            "desiredTemperature": 17.5,
-            "valvePosition": 0,
-            "measuredTemperature": 17.8,
+            "desiredTemperature": 21,
+            "valvePosition": 12,
+            "measuredTemperature": 22.5,
             "dstSetting": 1,
             "langateway": 1,
             "panel": 0,
             "rferror": 0,
             "batterylow": 0,
             "untilString": "",
-            "lastUpdate": "Fri Dec 09 2022 12:27:51 GMT+0100 (Central European Standard Time)",
+            "lastUpdate": "Fri Dec 09 2022 17:46:37 GMT+0100 (Central European Standard Time)",
             "haMode": "heat",
-            "lastSetpoint": 20
+            "lastSetpoint": 21.5
         }
     },
     "10dd0d": {
         "deviceType": "Thermostat",
         "state": {
             "mode": "1",
-            "desiredTemperature": 20,
-            "valvePosition": 49,
-            "measuredTemperature": 19.3,
+            "desiredTemperature": 21,
+            "valvePosition": 0,
+            "measuredTemperature": "19.13",
             "dstSetting": 1,
             "langateway": 1,
             "panel": 0,
             "rferror": 0,
             "batterylow": 0,
             "untilString": "",
-            "lastUpdate": "Thu Sep 29 2022 17:02:24 GMT+0200 (Central European Summer Time)",
+            "lastUpdate": "Fri Dec 09 2022 17:53:20 GMT+0100 (Central European Standard Time)",
             "haMode": "heat",
-            "lastSetpoint": 20
+            "lastSetpoint": 21
         }
     },
     "0d1031": {
         "deviceType": "Thermostat",
         "state": {
-            "lastSetpoint": 17.5,
-            "desiredTemperature": 17,
+            "lastSetpoint": 21,
+            "desiredTemperature": 21,
             "mode": "1",
-            "lastUpdate": "Fri Dec 09 2022 12:12:31 GMT+0100 (Central European Standard Time)",
+            "lastUpdate": "Fri Dec 09 2022 17:41:35 GMT+0100 (Central European Standard Time)",
             "haMode": "heat",
-            "valvePosition": 5,
-            "measuredTemperature": 17.3,
+            "valvePosition": 88,
+            "measuredTemperature": 18.2,
             "dstSetting": 1,
             "langateway": 1,
             "panel": 0,
@@ -127,13 +127,13 @@
     "0eb961": {
         "deviceType": "Thermostat",
         "state": {
-            "lastSetpoint": 20,
-            "desiredTemperature": 17,
+            "lastSetpoint": 21,
+            "desiredTemperature": 21,
             "mode": "1",
-            "lastUpdate": "Fri Dec 09 2022 12:15:04 GMT+0100 (Central European Standard Time)",
+            "lastUpdate": "Fri Dec 09 2022 17:38:12 GMT+0100 (Central European Standard Time)",
             "haMode": "heat",
-            "valvePosition": 0,
-            "measuredTemperature": 18.4,
+            "valvePosition": 70,
+            "measuredTemperature": 20,
             "dstSetting": 1,
             "langateway": 1,
             "panel": 0,
@@ -148,7 +148,7 @@
             "isOpen": 0,
             "rfError": 0,
             "batteryLow": 0,
-            "lastUpdate": "Thu Sep 29 2022 18:56:12 GMT+0200 (Central European Summer Time)"
+            "lastUpdate": "Fri Dec 09 2022 14:57:39 GMT+0100 (Central European Standard Time)"
         }
     },
     "1a47c9": {
@@ -157,7 +157,7 @@
             "isOpen": 0,
             "rfError": 0,
             "batteryLow": 0,
-            "lastUpdate": "Fri Dec 09 2022 12:21:34 GMT+0100 (Central European Standard Time)"
+            "lastUpdate": "Fri Dec 09 2022 17:44:56 GMT+0100 (Central European Standard Time)"
         }
     },
     "020bfb": {
@@ -166,7 +166,7 @@
             "isOpen": 0,
             "rfError": 0,
             "batteryLow": 1,
-            "lastUpdate": "Thu Sep 29 2022 18:41:02 GMT+0200 (Central European Summer Time)"
+            "lastUpdate": "Fri Dec 09 2022 17:42:03 GMT+0100 (Central European Standard Time)"
         }
     },
     "1a4c07": {
@@ -175,24 +175,24 @@
             "isOpen": 0,
             "rfError": 0,
             "batteryLow": 0,
-            "lastUpdate": "Thu Sep 29 2022 18:51:37 GMT+0200 (Central European Summer Time)"
+            "lastUpdate": "Fri Dec 09 2022 17:47:10 GMT+0100 (Central European Standard Time)"
         }
     },
     "18718a": {
         "deviceType": "Thermostat",
         "state": {
             "lastSetpoint": 18,
-            "desiredTemperature": 4.5,
+            "desiredTemperature": 18,
             "mode": "1",
-            "lastUpdate": "Thu Sep 29 2022 19:13:15 GMT+0200 (Central European Summer Time)",
-            "haMode": "off",
-            "valvePosition": 0,
-            "measuredTemperature": 18.8,
+            "lastUpdate": "Fri Dec 09 2022 17:42:33 GMT+0100 (Central European Standard Time)",
+            "haMode": "heat",
+            "valvePosition": 1,
+            "measuredTemperature": 18.1,
             "dstSetting": 1,
             "langateway": 1,
             "panel": 0,
             "rferror": 0,
-            "batterylow": 1,
+            "batterylow": 0,
             "untilString": "",
             "temp": 6
         }
