@@ -23,18 +23,60 @@ default:
   advanced:
     cache_state_persistent: true
   database:
-    db_path: "."
+    db_path: "storage"
     db_file: "database.db"
   devices:
-    0209d8:
-      label: "Schlafzimmer Fenster Links"
-      deviceId: "0209d8"
+    "1a47c9":
+      label: "Haustuer"
+      deviceId: "1a47c9"
       deviceType: "ShutterContact"
       groupId: "00"
       pairIds: []
-    0d0cd7:
+    "020bfb":
+      label: "Terassentuer"
+      deviceId: "020bfb"
+      deviceType: "ShutterContact"
+      groupId: "00"
+      pairIds: []
+    "1a4c07":
+      label: "Wohnzimmerfenster hinten rechts"
+      deviceId: "1a4c07"
+      deviceType: "ShutterContact"
+      groupId: "00"
+      pairIds: []
+    "165389":
+      label: "Küchenfenster"
+      deviceId: "165389"
+      deviceType: "ShutterContact"
+      groupId: "00"
+      pairIds: []
+    "0ec316":
+      label: "Arbeitszimmer Fenster Links"
+      deviceId: "0ec316"
+      deviceType: "ShutterContact"
+      groupId: "00"
+      pairIds: []
+    "0ec1c5":
+      label: "Arbeitszimmer Fenster Rechts"
+      deviceId: "0ec1c5"
+      deviceType: "ShutterContact"
+      groupId: "00"
+      pairIds: []
+    "05ea71":
+      label: "Schlafzimmer Fenster Links"
+      deviceId: "05ea71"
+      deviceType: "ShutterContact"
+      groupId: "00"
+      pairIds: []
+    "0209f8":
+      label: "Schlafzimmer Fenster Links"
+      deviceId: "0209f8"
+      deviceType: "ShutterContact"
+      groupId: "00"
+      pairIds: []
+    "0d0cf7":
       label: "Heizung Arbeitszimmer"
-      deviceId: "0d0cd7"
+      deviceId: "0d0cf7"
       deviceType: "Thermostat"
       groupId: '00'
       ecoTemp: 17
@@ -46,3 +88,126 @@ default:
       windowOpenTemperature: 4.5
       guiShowValvePosition: true
       pairIds: []
+    "1952e0":
+      label: "Heizung Kueche"
+      deviceId: "1952e0"
+      deviceType: "Thermostat"
+      groupId: '00'
+      ecoTemp: 17
+      comfyTemp: 20
+      minimumTemperature: 4.5
+      maximumTemperature: 30.5
+      measurementOffset: 0
+      windowOpenTime: 60
+      windowOpenTemperature: 4.5
+      guiShowValvePosition: true
+      pairIds: []
+    "10dd0d":
+      label: "Heizung Wohnzimmer"
+      deviceId: "10dd0d"
+      deviceType: "Thermostat"
+      groupId: '00'
+      ecoTemp: 17
+      comfyTemp: 20
+      minimumTemperature: 4.5
+      maximumTemperature: 30.5
+      measurementOffset: 0
+      windowOpenTime: 60
+      windowOpenTemperature: 4.5
+      guiShowValvePosition: true
+      pairIds: []
+    "0d1031":
+      label: "Heizung Schlafzimmer"
+      deviceId: "0d1031"
+      deviceType: "Thermostat"
+      groupId: '00'
+      ecoTemp: 17
+      comfyTemp: 20
+      minimumTemperature: 4.5
+      maximumTemperature: 30.5
+      measurementOffset: 0
+      windowOpenTime: 60
+      windowOpenTemperature: 4.5
+      guiShowValvePosition: true
+      pairIds: []
+    "0eb961":
+      label: "Heizung Badezimmer"
+      deviceId: "0eb961"
+      deviceType: "Thermostat"
+      groupId: '00'
+      ecoTemp: 17
+      comfyTemp: 20
+      minimumTemperature: 4.5
+      maximumTemperature: 30.5
+      measurementOffset: 2
+      windowOpenTime: 60
+      windowOpenTemperature: 4.5
+      guiShowValvePosition: true
+      pairIds: []
+    "18718a":
+      label: "Heizung Badezimmer OG"
+      deviceId: "18718a"
+      deviceType: "Thermostat"
+      groupId: '00'
+      ecoTemp: 17
+      comfyTemp: 20
+      minimumTemperature: 4.5
+      maximumTemperature: 30.5
+      measurementOffset: 0
+      windowOpenTime: 60
+      windowOpenTemperature: 4.5
+      guiShowValvePosition: true
+      pairIds: [
+        {
+          pairId: "1c0ac2",
+          type: "WallMountedThermostat"
+        }
+      ]
+    "1c0ac2":
+      label: "Wandthermostat Badezimmer OG"
+      deviceId: "1c0ac2"
+      deviceType: "WallMountedThermostat"
+      groupId: '00'
+      ecoTemp: 17
+      comfyTemp: 20
+      minimumTemperature: 4.5
+      maximumTemperature: 30.5
+      measurementOffset: 0
+      windowOpenTime: 60
+      windowOpenTemperature: 4.5
+      pairIds: [
+        {
+          pairId: "18718a",
+          type: "HeatingThermostat"
+        }
+      ]
+    "1c0ac1":
+      label: "FakeWandthermostat Arbeitszimmer"
+      deviceId: "1c0ac1"
+      deviceType: "FakeWallMountedThermostat"
+      pairIds: [
+        {
+          pairId: "0d0cf7",
+          type: "WallMountedThermostat"
+        }
+      ]
+    "1c0ac0":
+      label: "FakeWandthermostat Schlafzimmer"
+      deviceId: "1c0ac0"
+      deviceType: "FakeWallMountedThermostat"
+      pairIds: [
+        {
+          pairId: "0d1031",
+          type: "WallMountedThermostat"
+        }
+      ]
+    "1c0ab9":
+      label: "FakeWandthermostat Wohnzimmer"
+      deviceId: "1c0ab9"
+      deviceType: "FakeWallMountedThermostat"
+      pairIds: [
+        {
+          pairId: "10dd0d",
+          type: "WallMountedThermostat"
+        }
+      ]

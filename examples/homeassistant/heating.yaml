@@ -1,0 +1,110 @@
+- name: "Arbeitszimmer Heizung"
+  unique_id: "heizung_arbeitszimmer"
+  modes:
+    - "off"
+    - "heat"
+  current_temperature_topic: "maxcul2mqtt/0d0cf7/state"
+  current_temperature_template: "{{ value_json.measuredTemperature }}"
+  temperature_state_topic: "maxcul2mqtt/0d0cf7/state"
+  temperature_state_template: "{{ value_json.desiredTemperature }}"
+  temperature_command_topic: "maxcul2mqtt/bridge/cmd/0d0cf7/setTemp"
+  #action_topic: "maxcul2mqtt/0d0cf7/state"
+  #action_template: "{{value_json.haMode}}"
+  availability_topic: "maxcul2mqtt/0d0cf7/availability"
+  temp_step: 0.5
+  max_temp: 30.6
+  min_temp: 4.5
+  precision: 0.1
+  mode_command_topic: "maxcul2mqtt/bridge/cmd/0d0cf7/setMode"
+  mode_state_topic: "maxcul2mqtt/0d0cf7/state"
+  mode_state_template: "{{ value_json.haMode }}"
+- name: "Kuechen Heizung"
+  unique_id: "heizung_kueche"
+  modes:
+    - "off"
+    - "heat"
+  current_temperature_topic: "maxcul2mqtt/1952e0/state"
+  current_temperature_template: "{{ value_json.measuredTemperature }}"
+  temperature_state_topic: "maxcul2mqtt/1952e0/state"
+  temperature_state_template: "{{ value_json.desiredTemperature }}"
+  temperature_command_topic: "maxcul2mqtt/bridge/cmd/1952e0/setTemp"
+  availability_topic: "maxcul2mqtt/1952e0/availability"
+  temp_step: 0.5
+  max_temp: 30.6
+  min_temp: 4.5
+  precision: 0.1
+  mode_command_topic: "maxcul2mqtt/bridge/cmd/1952e0/setMode"
+  mode_state_topic: "maxcul2mqtt/1952e0/state"
+  mode_state_template: "{{ value_json.haMode }}"
+- name: "Wohnzimmer Heizung"
+  unique_id: "heizung_wohnzimmer"
+  modes:
+    - "off"
+    - "heat"
+  current_temperature_topic: "maxcul2mqtt/10dd0d/state"
+  current_temperature_template: "{{ value_json.measuredTemperature }}"
+  temperature_state_topic: "maxcul2mqtt/10dd0d/state"
+  temperature_state_template: "{{ value_json.desiredTemperature }}"
+  temperature_command_topic: "maxcul2mqtt/bridge/cmd/10dd0d/setTemp"
+  availability_topic: "maxcul2mqtt/10dd0d/availability"
+  temp_step: 0.5
+  max_temp: 30.6
+  min_temp: 4.5
+  precision: 0.1
+  mode_command_topic: "maxcul2mqtt/bridge/cmd/10dd0d/setMode"
+  mode_state_topic: "maxcul2mqtt/10dd0d/state"
+  mode_state_template: "{{ value_json.haMode }}"
+- name: "Schlafzimmer Heizung"
+  unique_id: "heizung_schlafzimmer"
+  modes:
+    - "off"
+    - "heat"
+  current_temperature_topic: "maxcul2mqtt/0d1031/state"
+  current_temperature_template: "{{ value_json.measuredTemperature }}"
+  temperature_state_topic: "maxcul2mqtt/0d1031/state"
+  temperature_state_template: "{{ value_json.desiredTemperature }}"
+  temperature_command_topic: "maxcul2mqtt/bridge/cmd/0d1031/setTemp"
+  availability_topic: "maxcul2mqtt/0d1031/availability"
+  temp_step: 0.5
+  max_temp: 30.6
+  min_temp: 4.5
+  precision: 0.1
+  mode_command_topic: "maxcul2mqtt/bridge/cmd/0d1031/setMode"
+  mode_state_topic: "maxcul2mqtt/0d1031/state"
+  mode_state_template: "{{ value_json.haMode }}"
+- name: "Badezimmer Heizung"
+  unique_id: "heizung_Badezimmer"
+  modes:
+    - "off"
+    - "heat"
+  current_temperature_topic: "maxcul2mqtt/0eb961/state"
+  current_temperature_template: "{{ value_json.measuredTemperature }}"
+  temperature_state_topic: "maxcul2mqtt/0eb961/state"
+  temperature_state_template: "{{ value_json.desiredTemperature }}"
+  temperature_command_topic: "maxcul2mqtt/bridge/cmd/0eb961/setTemp"
+  availability_topic: "maxcul2mqtt/0eb961/availability"
+  temp_step: 0.5
+  max_temp: 30.6
+  min_temp: 4.5
+  precision: 0.1
+  mode_command_topic: "maxcul2mqtt/bridge/cmd/0eb961/setMode"
+  mode_state_topic: "maxcul2mqtt/0eb961/state"
+  mode_state_template: "{{ value_json.haMode }}"
+- name: "Badezimmer Heizung OG Thermostat"
+  unique_id: "heizung_badezimmer_og_thermostat"
+  modes:
+    - "off"
+    - "heat"
+  current_temperature_topic: "maxcul2mqtt/18718a/state"
+  current_temperature_template: "{{ value_json.measuredTemperature }}"
+  temperature_state_topic: "maxcul2mqtt/18718a/state"
+  temperature_state_template: "{{ value_json.desiredTemperature }}"
+  temperature_command_topic: "maxcul2mqtt/bridge/cmd/1c0ac2/setTemp"
+  availability_topic: "maxcul2mqtt/1c0ac2/availability"
+  temp_step: 0.5
+  max_temp: 30.6
+  min_temp: 4.5
+  precision: 0.1
+  mode_command_topic: "maxcul2mqtt/bridge/cmd/1c0ac2/setMode"
+  mode_state_topic: "maxcul2mqtt/18718a/state"
+  mode_state_template: "{{ value_json.haMode }}"

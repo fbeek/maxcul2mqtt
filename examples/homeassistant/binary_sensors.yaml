@@ -1,0 +1,96 @@
+- name: "Arbeitszimmer Fenster links"
+  unique_id: arbeitszimmer_fenster_links
+  state_topic: "maxcul2mqtt/0209f8/state"
+  payload_on: 1
+  payload_off: 0
+  availability:
+    - topic: "maxcul2mqtt/0209f8/availability"
+      payload_available: "online"
+      payload_not_available: "offline"
+  qos: 0
+  device_class: window
+  value_template: '{{ value_json.isOpen }}'
+- name: "Arbeitszimmer Fenster rechts"
+  unique_id: arbeitszimmer_fenster_rechts
+  state_topic: "maxcul2mqtt/0ec1c5/state"
+  payload_on: 1
+  payload_off: 0
+  availability:
+    - topic: "maxcul2mqtt/0ec1c5/availability"
+      payload_available: "online"
+      payload_not_available: "offline"
+  qos: 0
+  device_class: window
+  value_template: '{{ value_json.isOpen }}'
+- name: "Schlafzimmer Fenster rechts"
+  unique_id: schlafzimmer_fenster_rechts
+  state_topic: "maxcul2mqtt/0ec316/state"
+  payload_on: 1
+  payload_off: 0
+  availability:
+    - topic: "maxcul2mqtt/0ec316/availability"
+      payload_available: "online"
+      payload_not_available: "offline"
+  qos: 0
+  device_class: window
+  value_template: '{{ value_json.isOpen }}'
+- name: "Schlafzimmer Fenster links"
+  unique_id: schlafzimmer_fenster_links
+  state_topic: "maxcul2mqtt/05ea71/state"
+  payload_on: 1
+  payload_off: 0
+  availability:
+    - topic: "maxcul2mqtt/05ea71/availability"
+      payload_available: "online"
+      payload_not_available: "offline"
+  qos: 0
+  device_class: window
+  value_template: '{{ value_json.isOpen }}'
+- name: "Haustuer"
+  unique_id: haustuer
+  state_topic: "maxcul2mqtt/1a47c9/state"
+  payload_on: 1
+  payload_off: 0
+  availability:
+    - topic: "maxcul2mqtt/1a47c9/availability"
+      payload_available: "online"
+      payload_not_available: "offline"
+  qos: 0
+  device_class: door
+  value_template: '{{ value_json.isOpen }}'
+- name: "Terrassentuer"
+  unique_id: terrassentuer
+  state_topic: "maxcul2mqtt/020bfb/state"
+  payload_on: 1
+  payload_off: 0
+  availability:
+    - topic: "maxcul2mqtt/020bfb/availability"
+      payload_available: "online"
+      payload_not_available: "offline"
+  qos: 0
+  device_class: door
+  value_template: '{{ value_json.isOpen }}'
+- name: "Kellertuer"
+  unique_id: kellertuer_max
+  state_topic: "maxcul2mqtt/165389/state"
+  payload_on: 1
+  payload_off: 0
+  availability:
+    - topic: "maxcul2mqtt/165389/availability"
+      payload_available: "online"
+      payload_not_available: "offline"
+  qos: 0
+  device_class: window
+  value_template: '{{ value_json.isOpen }}'
+- name: "Wohnzimmer Fenster hinten rechts"
+  unique_id: wohnzimmer_fenster_hinten_rechts
+  state_topic: "maxcul2mqtt/1a4c07/state"
+  payload_on: 1
+  payload_off: 0
+  availability:
+    - topic: "maxcul2mqtt/1a4c07/availability"
+      payload_available: "online"
+      payload_not_available: "offline"
+  qos: 0
+  device_class: window
+  value_template: '{{ value_json.isOpen }}'
